@@ -1,2 +1,2 @@
-# splinepy-demos
+# try-splinepy
 splinepy playground - examples and binder
