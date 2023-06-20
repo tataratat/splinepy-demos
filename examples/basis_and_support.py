@@ -33,6 +33,7 @@ if __name__ == "__main__":
     b.insert_knots(1, [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])
     b.insert_knots(2, [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])
 
+    # get same nurbs
     n = b.nurbs
     # edit a weight so that the values aren't the same
     n.weights[0, 0] = 0.5  # this is a tall array
@@ -40,9 +41,6 @@ if __name__ == "__main__":
     # queries
     q = [
         [0.01, 0.01, 0.01],
-        # [.2, .3, .4],
-        # [.3, .4, .5],
-        # [.4, .5, .6],
         [0.51, 0.61, 0.71],
     ]
 
